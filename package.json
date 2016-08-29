@@ -9,6 +9,6 @@
   "scripts": {
     "postinstall": "typings install",
     "build": "tsc -p .",
-    "test": "npm run build && npm run test"
+    "test": "npm run build && mocha out/"
   }
 }
